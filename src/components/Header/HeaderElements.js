@@ -10,6 +10,10 @@ export const HeaderContainer = styled.header`
     margin: 50px 0;
     width: 100%;
     z-index: 1;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        height: auto;
+    }
 `;
 export const HeaderWrapper = styled.div`
     display: flex;
@@ -26,4 +30,7 @@ export const Ariel = styled.h1`
     white-space: nowrap;
     padding: 0px;
     color: #fff;
+    @media screen and (max-width: 768px) {
+        order: 1;
+    }
 `;

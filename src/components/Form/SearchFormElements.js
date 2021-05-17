@@ -18,6 +18,9 @@ export const SearchFormContainer = styled.div`
     @media screen and (max-width: 480px) {
         height: 1200px;
     }
+    @media screen and (max-width: 768px) {
+        order: 2;
+    }
 `;
 
 export const SearchFormWrapper = styled.div`
@@ -29,6 +32,7 @@ export const SearchFormWrapper = styled.div`
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
+        padding-right: 0px;
     }
 `;
 
@@ -37,5 +41,6 @@ export const SearchFormInput = styled.input`
     padding: 12px 30px;
     @media screen and (max-width: 768px) {
         width: 100%;
+        margin: 0px;
     }
 `;

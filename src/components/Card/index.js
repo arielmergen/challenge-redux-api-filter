@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 
 import { deletePeople } from '../../redux/actions/peopleActions';
@@ -37,4 +38,8 @@ const Card = ({ loading, peopleList }) => {
     return <>{loading ? renderLoading() : renderList(peopleList, dispatch)}</>;
 };
 
+Card.prototype = {
+    loading: PropTypes.bool,
+    peopleList: PropTypes.array,
+};
 export default Card;
