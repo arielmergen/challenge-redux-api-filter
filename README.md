@@ -20,6 +20,7 @@ Styled-components 5.3.0
 # Inicializacion del proyecto
 
 1. Descargar los archivos, clonar repositorio (como te sientas más a gusto)
+   git clone https://github.com/arielmergen/challenge-redux-api-filter
 2. Un vez descargados los archivos instalar dependencias npm o yarn para instalarlas.
 3. yarn star / npm start para ejecutar el proyecto
 
